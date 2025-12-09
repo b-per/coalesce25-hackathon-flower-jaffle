@@ -56,3 +56,5 @@ models:
     columns:
       - name: supply_id
         description: "Supply identifier (may have duplicates)"
+        tests:
+          - unique
